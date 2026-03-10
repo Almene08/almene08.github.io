@@ -1,13 +1,24 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
+author: almene
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I’m a PhD student in Computer Science at the University of Colorado Boulder (CU Boulder), and a member of the [Science of Science and Computational Discovery Lab](https://scienceofscience.org). I’m advised by [Prof. Daniel Acuña](https://acuna.io). My research interests include **AI safety and alignment**, **Natural Language Processing (NLP)**, and **Science of Science**, with an emphasis on reliable, safety, and responsible large language models for scientific work.
+
+Broadly, I am interested on building safer and more trustworthy language models for scientific use. My research focuses on AI safety and alignment for scientific workflows; especially how models handle pressure, uncertainty, and research integrity. I also study what LLMs internalize and output about science and scientists, and how these representations may shape scientific communication and decision-making. Recently, I’ve been developing benchmarks to test whether LLMs can recognize and avoid research misconduct, and exploring principle-driven methods to encourage more truthful, integrity-preserving behavior.
+
+Before starting my PhD, I completed a **postgraduate diploma in Quantitative Life Sciences** at the [Abdus Salam International Centre for Theoretical Physics (ICTP)](https://www.ictp.it), and a **Master’s in Data Science** at the [African Institute for Mathematical Sciences](https://aims-cameroon.org). I also earned an MS in Physics (Electronics, Electrical Engineering, and Automation) from the [University of Dschang](https://www.univ-dschang.org). 
+
+<!-- At CU Boulder, I serve as a **Graduate Research Assistant** and have also worked as a **Graduate Teaching Assistant**.  -->
+
+**Research interests:** AI for Science; AI safety and alignment; Large Language Models; NLP; Science of Science; AI policy. 
+
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
@@ -53,4 +64,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
