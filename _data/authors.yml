@@ -6,8 +6,8 @@ almene:
   email       : "almene.meguimtsop@colorado.edu"
   bio         : "PhD student in Computer Science at the University of Colorado Boulder. Research interests: AI safety and alignment, science of science, and large language models."
   avatar      : "bio-photo.jpg"   # put your photo in /images/ or /assets/images/ depending on your template
-  twitter     : ""                # optional (leave empty if you don't use it)
-  google_scholar : ""             # optional (add your scholar ID or full link if you have one)
-  orcid       : ""                # optional
+  #twitter     : ""                # optional (leave empty if you don't use it)
+  #google_scholar : ""             # optional (add your scholar ID or full link if you have one)
+  #orcid       : ""                # optional
   linkedin    : "https://www.linkedin.com/in/almene-de-meran-meguimtsop-2355bb231/"                # optional
   github      : "almene08"        # optional
