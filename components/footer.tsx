@@ -127,7 +127,7 @@ export default function Footer() {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/almene-de-meran-meguimtsop/"
+                href="https://www.linkedin.com/in/almene-de-meran-meguimtsop-2355bb231/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

@@ -218,7 +218,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/almene-de-meran-meguimtsop/"
+            href="https://www.linkedin.com/in/almene-de-meran-meguimtsop-2355bb231/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 py-2 sm:px-4 sm:py-2 md:px-6 md:py-3 bg-white text-gray-900 rounded-full hover:bg-gray-100 transition-colors text-center text-xs sm:text-sm md:text-base whitespace-nowrap"
