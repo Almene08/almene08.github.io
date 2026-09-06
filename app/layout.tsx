@@ -1,90 +1,105 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kelechi Ezema - AI Researcher & PhD Student",
+  // Fixes the metadataBase warning you saw during pnpm build
+  metadataBase: new URL("https://almene08.github.io"),
+
+  title: {
+    default: "Almene De Meran Meguimtsop | AI Safety Researcher",
+    template: "%s | Almene De Meran Meguimtsop",
+  },
+
   description:
-    "PhD student in Computer Science at University of Colorado Boulder, specializing in NLP applied to educational enviornment. Research published in CHI 2025.",
+    "Ph.D. student in Computer Science at the University of Colorado Boulder researching AI safety and alignment, LLM evaluation and red teaming, agentic AI, and trustworthy AI for science.",
+
   keywords: [
-    "Kelechi Ezema",
-    "CU Boulder",
-    "CU",
-    "AI Research",
-    "PhD Student",
-    "Computer Science",
-    "University of Colorado Boulder",
-    "Speech Recognition",
-    "Educational Technology",
-    "AI Bias",
+    "Almene De Meran Meguimtsop",
+    "Almene Meguimtsop",
+    "AI Safety",
+    "AI Alignment",
+    "LLM Evaluation",
+    "Red Teaming",
+    "Agentic AI",
+    "AI for Science",
+    "Trustworthy AI",
+    "Responsible AI",
+    "Large Language Models",
+    "Natural Language Processing",
     "Machine Learning",
-    "NLP",
-    "CHI Conference",
-    "Inclusive AI",
+    "Research Integrity",
+    "University of Colorado Boulder",
+    "CU Boulder",
+    "Computer Science",
+    "SciIntBench",
   ],
-  authors: [{ name: "Kelechi Ezema" }],
-  creator: "Kelechi Ezema",
-  publisher: "Kelechi Ezema",
-  robots: "index, follow",
+
+  authors: [
+    {
+      name: "Almene De Meran Meguimtsop",
+      url: "https://almene08.github.io",
+    },
+  ],
+
+  creator: "Almene De Meran Meguimtsop",
+  publisher: "Almene De Meran Meguimtsop",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: "https://almene08.github.io",
+  },
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kelechiezema.com", // Replace with your actual domain
-    title: "Kelechi Ezema - AI Researcher & PhD Student",
+    url: "https://almene08.github.io",
+
+    title: "Almene De Meran Meguimtsop | AI Safety Researcher",
+
     description:
-      "PhD student in Computer Science at University of Colorado Boulder, specializing in NLP, educational technology, and speech recognition systems.",
-    siteName: "Kelechi Ezema Portfolio",
+      "Ph.D. student in Computer Science at the University of Colorado Boulder researching AI safety and alignment, LLM evaluation and red teaming, agentic AI, and trustworthy AI for science.",
+
+    siteName: "Almene De Meran Meguimtsop",
+
     images: [
       {
-        url: "/hero-image.jpg",
+        url: "/almene-headshot.jpg",
         width: 1200,
         height: 630,
-        alt: "Kelechi Ezema - AI Researcher and PhD Student",
+        alt: "Almene De Meran Meguimtsop",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Kelechi Ezema - AI Researcher & PhD Student",
+
+    title: "Almene De Meran Meguimtsop | AI Safety Researcher",
+
     description:
-      "PhD student in Computer Science at University of Colorado Boulder, specializing in AI bias mitigation and educational technology.",
-    images: ["/hero-image.jpg"],
-    creator: "@kelechi_ezema", // Replace with your actual Twitter handle if you have one
+      "Ph.D. student researching AI safety and alignment, LLM evaluation, agentic AI, and trustworthy AI for science.",
+
+    images: ["/almene-headshot.jpg"],
   },
-  verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification code
-  },
-  alternates: {
-    canonical: "https://kelechiezema.com", // Replace with your actual domain
-  },
-  generator: "v0.dev",
+
   icons: {
-    icon: [
-      { url: "/favicon-website.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [
-      { url: "/favicon-website.png", sizes: "180x180", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "152x152", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "144x144", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "120x120", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "114x114", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "76x76", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "72x72", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "60x60", type: "image/png" },
-      { url: "/favicon-website.png", sizes: "57x57", type: "image/png" },
-    ],
-    other: [
-      {
-        rel: "apple-touch-icon-precomposed",
-        url: "/favicon-website.png",
-      },
-    ],
-  },
+  icon: "/icon.svg",
+  shortcut: "/icon.svg",
+},
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1f2937",
 }
 
 export default function RootLayout({
@@ -94,42 +109,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        {/* Additional meta tags */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#1f2937" />
-
-        {/* Favicon and Apple Touch Icons */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-website.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-website.png" />
-        <link rel="shortcut icon" href="/favicon-website.png" />
-
-        {/* Apple Touch Icons for various iOS devices */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="/favicon-website.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/favicon-website.png" />
-
-        {/* Precomposed icon for older iOS versions */}
-        <link rel="apple-touch-icon-precomposed" href="/favicon-website.png" />
-
-        {/* iOS Safari specific meta tags */}
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Kelechi Ezema" />
-
-        {/* PWA Manifest */}
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className={inter.className}>
-        {children}
-        <Analytics />
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
