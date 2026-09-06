@@ -28,11 +28,10 @@ const researchPublications = [
       "An adversarial benchmark for evaluating whether large language models uphold research integrity norms under overt, covert, and benign framing.",
 
     authors: (
-      <>
-        <strong>Almene De Meran Meguimtsop</strong>, Maria Leonor Pacheco,
-        Daniel E. Acuña
-      </>
-    ),
+  <>
+    <strong>Meguimtsop, A. D. M.</strong>, Pacheco, M. L., & Acuna, D. E.
+  </>
+),
 
     venue: "arXiv preprint, 2026",
 
@@ -68,12 +67,11 @@ const researchPublications = [
       "Examines disparities in how large language models represent and reason about science and scientists.",
 
     authors: (
-      <>
-        <strong>Almene De Meran Meguimtsop</strong>, C. E. Ojukwu,
-        P. Taechoyotin, C. Chávez-Ruelas, R. Burke, A. Clauset,
-        Daniel E. Acuña
-      </>
-    ),
+  <>
+    <strong>Meguimtsop, A. D. M.</strong>, Ojukwu, C. E., Taechoyotin, P.,
+    Chávez-Ruelas, C., Burke, R., Clauset, A., & Acuña, D. E.
+  </>
+),
 
     venue: "Proceedings of the National Academy of Sciences (PNAS)",
 
@@ -93,11 +91,10 @@ const researchPublications = [
       "Evaluates retraction awareness in large language models as a component of trustworthy AI-assisted scientific workflows.",
 
     authors: (
-      <>
-        P. Taechoyotin, Y. Tian,{" "}
-        <strong>Almene De Meran Meguimtsop</strong>, Daniel E. Acuña
-      </>
-    ),
+  <>
+    Taechoyotin, P., Tian, Y., <strong>Meguimtsop, A. D. M.</strong>, & Acuña, D. E.
+  </>
+),
 
     venue: "Manuscript",
 
@@ -117,12 +114,12 @@ const researchPublications = [
       "Examines the clinical safety of multimodal large language models across text and speech in low-resource language settings.",
 
     authors: (
-      <>
-        M. Oduwole, T. Abdullahi, T. Olatunji, G. A. Katuka, M. Mgonzo,
-        C. Okocha, T. Oko-Odion, K. Ezema,{" "}
-        <strong>Almene De Meran Meguimtsop</strong>, L. E. Ismaila
-      </>
-    ),
+  <>
+    Oduwole, M., Abdullahi, T., Olatunji, T., Katuka, G. A., Mgonzo, M.,
+    Okocha, C., Oko-Odion, T., Ezema, K.,{" "}
+    <strong>Meguimtsop, A. D. M.</strong>, & Ismaila, L. E.
+  </>
+),
 
     venue: "ACL Rolling Review",
 
