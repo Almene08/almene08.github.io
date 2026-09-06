@@ -69,11 +69,11 @@ const researchPublications = [
     authors: (
   <>
     <strong>Meguimtsop, A. D. M.</strong>, Ojukwu, C. E., Taechoyotin, P.,
-    Chávez-Ruelas, C., Burke, R., Clauset, A., & Acuña, D. E.
+    Chávez-Ruelas, C., Burke, R., Clauset, A., & Acuna, D. E.
   </>
 ),
 
-    venue: "Proceedings of the National Academy of Sciences (PNAS)",
+    venue: " Manuscript under review at Proceedings of the National Academy of Sciences (PNAS)",
 
     status: "Under review",
 
@@ -92,7 +92,7 @@ const researchPublications = [
 
     authors: (
   <>
-    Taechoyotin, P., Tian, Y., <strong>Meguimtsop, A. D. M.</strong>, & Acuña, D. E.
+    Taechoyotin, P., Tian, Y., <strong>Meguimtsop, A. D. M.</strong>, & Acuna, D. E.
   </>
 ),
 
